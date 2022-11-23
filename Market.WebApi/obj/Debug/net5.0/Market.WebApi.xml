@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Market.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Market.WebApi.Controllers.UserController.GetAll">
+            <summary>
+            Get the list of users
+            </summary>
+            <remarks>
+            Sample request:
+            Get /User
+            </remarks>
+            <returns>Return UserListVm</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:Market.WebApi.Controllers.UserController.GetById(System.Guid)">
+            <summary>
+            Get the user by id
+            </summary>
+            <remarks>
+            Sample request:
+            Get /User/B091E327-02F7-4EC8-A140-AA0052CF8565
+            </remarks>
+            <param name="id">User id (guid)</param>
+            <returns>Return UserDetailsVm</returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:Market.WebApi.Controllers.UserController.RefreshToken(Market.Application.Users.Commands.RefreshToken.RefreshTokenCommand)">
+            <summary>
+            Refresh Token
+            </summary>
+            <remarks>
+            POST /User/Refresh
+            eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiZQWhTUrMZE
+            </remarks>
+            <param name="command">RefreshTokenCommand object</param>
+            <returns>Access Token</returns>
+        </member>
+        <member name="M:Market.WebApi.Controllers.UserController.RevokeRefreshToken(Market.Application.Users.Commands.RevokeRefreshToken.RevokeRefreshTokenCommand)">
+            <summary>
+            Refresh token revoke
+            </summary>
+            <remarks>
+            POST /User/Revoke
+            {
+                "RefreshToken":"TGZKoIXM2kizt58WJYotSrP/hnqhz2vV"
+            }
+            </remarks>
+            <param name="command">RevokeRefreshTokenCommand object</param>
+            <returns></returns>
+        </member>
+        <member name="M:Market.WebApi.Controllers.UserController.Registration(Market.Application.Users.Commands.CreateUser.CreateUserCommand)">
+            <summary>
+            Registration
+            </summary>
+            <remarks>
+            Sample request:
+            POST /User/SignOut
+            {
+                "username":"name",
+                "email":"sample.1@test.com"
+                "password":"12345"
+            }
+            </remarks>
+            <param name="command">CreateUserCommad object</param>
+            <returns>
+            {
+                "token": "B091E327-02F7-4EC8-A140-AA0052CF8565",
+                "userId": "C257F261-02J7-4KC8-A140-BD4242NB8565"
+            }   
+            </returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:Market.WebApi.Controllers.UserController.Authorization(Market.Application.Users.Commands.AuthorizationUser.AuthorizationUserCommand)">
+            <summary>
+            Authorization
+            </summary>
+            <remarks>
+            POST /User/SignIn
+            {
+                "email":"sample.1@test.com"
+                "password":"12345"
+            }
+            </remarks>
+            <param name="command">AuthorizationUserCommand object</param>
+            <returns>
+            {
+                "token": "B091E327-02F7-4EC8-A140-AA0052CF8565",
+                "userId": "C257F261-02J7-4KC8-A140-BD4242NB8565"
+            }  
+            </returns>
+            <response code="200">Success</response>
+        </member>
+        <member name="M:Market.WebApi.Controllers.UserController.DeleteById">
+            <summary>
+            Delete the user
+            </summary>
+            <remarks>
+            Sample request:
+            DELETE /User
+            </remarks>
+            <returns>Returns NoContend</returns>
+            
+            <response code="200">Success</response>
+            <response code="401">If the user is unauthorized</response>
+        </member>
+    </members>
+</doc>

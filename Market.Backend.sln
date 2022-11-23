@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{94AD9330-6550-46A1-B924-9D1750D7EA0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A238B73E-2F34-4B94-A2CF-306BCB3DFC7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{70186175-F61C-4CD1-9ADE-36D04B657243}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CC1C51BE-B5E0-42EB-B447-09A0086D967D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market.Domain", "Market.Domain\Market.Domain.csproj", "{B45DF056-B09C-4FD1-8976-5927ACF594DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market.Application", "Market.Application\Market.Application.csproj", "{02AE60C2-AD9A-412D-A97F-79BE7A9902B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market.Persistence", "Market.Persistence\Market.Persistence.csproj", "{96D42DC3-DF67-4070-907B-F5F1AFBB4DC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Market.WebApi", "Market.WebApi\Market.WebApi.csproj", "{AB2F5705-C86D-4B1C-89E7-84C64D515155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market.Test", "Market.Test\Market.Test.csproj", "{5FE99D65-5508-40EF-9688-21E717089F81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B45DF056-B09C-4FD1-8976-5927ACF594DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45DF056-B09C-4FD1-8976-5927ACF594DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45DF056-B09C-4FD1-8976-5927ACF594DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45DF056-B09C-4FD1-8976-5927ACF594DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02AE60C2-AD9A-412D-A97F-79BE7A9902B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AE60C2-AD9A-412D-A97F-79BE7A9902B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AE60C2-AD9A-412D-A97F-79BE7A9902B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AE60C2-AD9A-412D-A97F-79BE7A9902B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D42DC3-DF67-4070-907B-F5F1AFBB4DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D42DC3-DF67-4070-907B-F5F1AFBB4DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D42DC3-DF67-4070-907B-F5F1AFBB4DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D42DC3-DF67-4070-907B-F5F1AFBB4DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2F5705-C86D-4B1C-89E7-84C64D515155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2F5705-C86D-4B1C-89E7-84C64D515155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2F5705-C86D-4B1C-89E7-84C64D515155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2F5705-C86D-4B1C-89E7-84C64D515155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE99D65-5508-40EF-9688-21E717089F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE99D65-5508-40EF-9688-21E717089F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE99D65-5508-40EF-9688-21E717089F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE99D65-5508-40EF-9688-21E717089F81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B45DF056-B09C-4FD1-8976-5927ACF594DE} = {94AD9330-6550-46A1-B924-9D1750D7EA0A}
+		{02AE60C2-AD9A-412D-A97F-79BE7A9902B0} = {94AD9330-6550-46A1-B924-9D1750D7EA0A}
+		{96D42DC3-DF67-4070-907B-F5F1AFBB4DC5} = {A238B73E-2F34-4B94-A2CF-306BCB3DFC7C}
+		{AB2F5705-C86D-4B1C-89E7-84C64D515155} = {70186175-F61C-4CD1-9ADE-36D04B657243}
+		{5FE99D65-5508-40EF-9688-21E717089F81} = {CC1C51BE-B5E0-42EB-B447-09A0086D967D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDABB81F-72D4-4793-A6E0-4A830D49D84F}
+	EndGlobalSection
+EndGlobal

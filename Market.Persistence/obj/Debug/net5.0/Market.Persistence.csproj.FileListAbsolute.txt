@@ -1,0 +1,17 @@
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\bin\Debug\net5.0\Market.Persistence.deps.json
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\bin\Debug\net5.0\Market.Persistence.dll
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\bin\Debug\net5.0\ref\Market.Persistence.dll
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\bin\Debug\net5.0\Market.Persistence.pdb
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\bin\Debug\net5.0\Market.Application.dll
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\bin\Debug\net5.0\Market.Domain.dll
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\bin\Debug\net5.0\Market.Application.pdb
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\bin\Debug\net5.0\Market.Domain.pdb
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\obj\Debug\net5.0\Market.Persistence.csproj.AssemblyReference.cache
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\obj\Debug\net5.0\Market.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\obj\Debug\net5.0\Market.Persistence.AssemblyInfoInputs.cache
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\obj\Debug\net5.0\Market.Persistence.AssemblyInfo.cs
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\obj\Debug\net5.0\Market.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\obj\Debug\net5.0\Market.Persistence.csproj.CopyComplete
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\obj\Debug\net5.0\Market.Persistence.dll
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\obj\Debug\net5.0\ref\Market.Persistence.dll
+C:\Users\danbe\source\repos\Market.Backend\Market.Persistence\obj\Debug\net5.0\Market.Persistence.pdb

@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Market.Domain": {
+      "commandName": "Project"
+    }
+  }
+}

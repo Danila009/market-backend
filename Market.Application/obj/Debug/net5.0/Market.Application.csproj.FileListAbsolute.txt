@@ -1,0 +1,15 @@
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\bin\Debug\net5.0\Market.Application.deps.json
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\bin\Debug\net5.0\Market.Application.dll
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\bin\Debug\net5.0\ref\Market.Application.dll
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\bin\Debug\net5.0\Market.Application.pdb
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\bin\Debug\net5.0\Market.Domain.dll
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\bin\Debug\net5.0\Market.Domain.pdb
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\obj\Debug\net5.0\Market.Application.csproj.AssemblyReference.cache
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\obj\Debug\net5.0\Market.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\obj\Debug\net5.0\Market.Application.AssemblyInfoInputs.cache
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\obj\Debug\net5.0\Market.Application.AssemblyInfo.cs
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\obj\Debug\net5.0\Market.Application.csproj.CoreCompileInputs.cache
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\obj\Debug\net5.0\Market.Application.csproj.CopyComplete
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\obj\Debug\net5.0\Market.Application.dll
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\obj\Debug\net5.0\ref\Market.Application.dll
+C:\Users\danbe\source\repos\Market.Backend\Market.Application\obj\Debug\net5.0\Market.Application.pdb
